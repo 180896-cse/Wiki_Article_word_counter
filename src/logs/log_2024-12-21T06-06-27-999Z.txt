@@ -1,0 +1,80 @@
+[MAIN] Worker PID: 1, Handling URL: https://en.wikipedia.org/wiki/Rose, Timestamp: 2024-12-21T06:06:28.002Z
+[MAIN] Worker PID: 2, Handling URL: https://en.wikipedia.org/wiki/Flowering_plant, Timestamp: 2024-12-21T06:06:28.005Z
+[MAIN] Worker PID: 3, Handling URL: https://en.wikipedia.org/wiki/Seed, Timestamp: 2024-12-21T06:06:28.007Z
+[MAIN] Worker PID: 4, Handling URL: https://en.wikipedia.org/wiki/Embryo, Timestamp: 2024-12-21T06:06:28.009Z
+[MAIN] Worker PID: 5, Handling URL: https://en.wikipedia.org/wiki/Frozen_zoo, Timestamp: 2024-12-21T06:06:28.012Z
+[MAIN] Worker PID: 6, Handling URL: https://en.wikipedia.org/wiki/Embryophyte, Timestamp: 2024-12-21T06:06:28.014Z
+[MAIN] Worker PID: 7, Handling URL: https://en.wikipedia.org/wiki/Clade, Timestamp: 2024-12-21T06:06:28.020Z
+[MAIN] Worker PID: 8, Handling URL: https://en.wikipedia.org/wiki/Puppeteer, Timestamp: 2024-12-21T06:06:28.023Z
+[MAIN] Worker PID: 9, Handling URL: https://en.wikipedia.org/wiki/Puppet_Master, Timestamp: 2024-12-21T06:06:28.026Z
+[MAIN] Worker PID: 10, Handling URL: https://en.wikipedia.org/wiki/Legendary_creature, Timestamp: 2024-12-21T06:06:28.028Z
+[WORKER 5] URL: https://en.wikipedia.org/wiki/Frozen_zoo, Browser Launched, Timestamp: 2024-12-21T06:06:30.497Z
+[WORKER 8] URL: https://en.wikipedia.org/wiki/Puppeteer, Browser Launched, Timestamp: 2024-12-21T06:06:30.673Z
+[WORKER 5] URL: https://en.wikipedia.org/wiki/Frozen_zoo, Starting Scraping, Timestamp: 2024-12-21T06:06:30.781Z
+[WORKER 8] URL: https://en.wikipedia.org/wiki/Puppeteer, Starting Scraping, Timestamp: 2024-12-21T06:06:31.008Z
+[WORKER 2] URL: https://en.wikipedia.org/wiki/Flowering_plant, Browser Launched, Timestamp: 2024-12-21T06:06:31.471Z
+[WORKER 2] URL: https://en.wikipedia.org/wiki/Flowering_plant, Starting Scraping, Timestamp: 2024-12-21T06:06:31.616Z
+[WORKER 1] URL: https://en.wikipedia.org/wiki/Rose, Browser Launched, Timestamp: 2024-12-21T06:06:31.769Z
+[WORKER 6] URL: https://en.wikipedia.org/wiki/Embryophyte, Browser Launched, Timestamp: 2024-12-21T06:06:31.880Z
+[WORKER 1] URL: https://en.wikipedia.org/wiki/Rose, Starting Scraping, Timestamp: 2024-12-21T06:06:31.943Z
+[WORKER 6] URL: https://en.wikipedia.org/wiki/Embryophyte, Starting Scraping, Timestamp: 2024-12-21T06:06:31.980Z
+[WORKER 7] URL: https://en.wikipedia.org/wiki/Clade, Browser Launched, Timestamp: 2024-12-21T06:06:32.269Z
+[WORKER 7] URL: https://en.wikipedia.org/wiki/Clade, Starting Scraping, Timestamp: 2024-12-21T06:06:32.426Z
+[WORKER 3] URL: https://en.wikipedia.org/wiki/Seed, Browser Launched, Timestamp: 2024-12-21T06:06:32.904Z
+[WORKER 3] URL: https://en.wikipedia.org/wiki/Seed, Starting Scraping, Timestamp: 2024-12-21T06:06:33.158Z
+[WORKER 10] URL: https://en.wikipedia.org/wiki/Legendary_creature, Browser Launched, Timestamp: 2024-12-21T06:06:33.348Z
+[WORKER 9] URL: https://en.wikipedia.org/wiki/Puppet_Master, Browser Launched, Timestamp: 2024-12-21T06:06:33.364Z
+[WORKER 9] URL: https://en.wikipedia.org/wiki/Puppet_Master, Starting Scraping, Timestamp: 2024-12-21T06:06:33.648Z
+[WORKER 4] URL: https://en.wikipedia.org/wiki/Embryo, Browser Launched, Timestamp: 2024-12-21T06:06:33.840Z
+[WORKER 10] URL: https://en.wikipedia.org/wiki/Legendary_creature, Starting Scraping, Timestamp: 2024-12-21T06:06:33.893Z
+[WORKER 4] URL: https://en.wikipedia.org/wiki/Embryo, Starting Scraping, Timestamp: 2024-12-21T06:06:33.999Z
+[WORKER 7] URL: https://en.wikipedia.org/wiki/Clade, Closing Page, Timestamp: 2024-12-21T06:06:34.918Z
+[WORKER 8] URL: https://en.wikipedia.org/wiki/Puppeteer, Closing Page, Timestamp: 2024-12-21T06:06:34.947Z
+[WORKER 7] URL: https://en.wikipedia.org/wiki/Clade, Word Count: 2174, Timestamp: 2024-12-21T06:06:35.276Z
+[WORKER 7] URL: https://en.wikipedia.org/wiki/Clade, Browser Closed, Timestamp: 2024-12-21T06:06:35.277Z
+[WORKER 5] URL: https://en.wikipedia.org/wiki/Frozen_zoo, Closing Page, Timestamp: 2024-12-21T06:06:35.549Z
+[WORKER 8] URL: https://en.wikipedia.org/wiki/Puppeteer, Word Count: 587, Timestamp: 2024-12-21T06:06:35.734Z
+[WORKER 8] URL: https://en.wikipedia.org/wiki/Puppeteer, Browser Closed, Timestamp: 2024-12-21T06:06:35.735Z
+[MAIN] Worker PID: 7, Completed URL: https://en.wikipedia.org/wiki/Clade, Timestamp: 2024-12-21T06:06:35.562Z
+[WORKER 5] URL: https://en.wikipedia.org/wiki/Frozen_zoo, Word Count: 3161, Timestamp: 2024-12-21T06:06:35.785Z
+[WORKER 5] URL: https://en.wikipedia.org/wiki/Frozen_zoo, Browser Closed, Timestamp: 2024-12-21T06:06:35.787Z
+[MAIN] Worker PID: 8, Completed URL: https://en.wikipedia.org/wiki/Puppeteer, Timestamp: 2024-12-21T06:06:35.845Z
+[MAIN] Worker PID: 5, Completed URL: https://en.wikipedia.org/wiki/Frozen_zoo, Timestamp: 2024-12-21T06:06:35.846Z
+[MAIN] Worker PID: 8, Exit code: 1, URL: https://en.wikipedia.org/wiki/Puppeteer
+[MAIN] Worker PID: 5, Exit code: 1, URL: https://en.wikipedia.org/wiki/Frozen_zoo
+[WORKER 1] URL: https://en.wikipedia.org/wiki/Rose, Closing Page, Timestamp: 2024-12-21T06:06:36.093Z
+[WORKER 6] URL: https://en.wikipedia.org/wiki/Embryophyte, Closing Page, Timestamp: 2024-12-21T06:06:36.135Z
+[WORKER 2] URL: https://en.wikipedia.org/wiki/Flowering_plant, Closing Page, Timestamp: 2024-12-21T06:06:36.137Z
+[WORKER 1] URL: https://en.wikipedia.org/wiki/Rose, Word Count: 4673, Timestamp: 2024-12-21T06:06:36.171Z
+[WORKER 1] URL: https://en.wikipedia.org/wiki/Rose, Browser Closed, Timestamp: 2024-12-21T06:06:36.171Z
+[WORKER 2] URL: https://en.wikipedia.org/wiki/Flowering_plant, Word Count: 6873, Timestamp: 2024-12-21T06:06:36.208Z
+[WORKER 2] URL: https://en.wikipedia.org/wiki/Flowering_plant, Browser Closed, Timestamp: 2024-12-21T06:06:36.215Z
+[MAIN] Worker PID: 7, Exit code: 1, URL: https://en.wikipedia.org/wiki/Clade
+[WORKER 6] URL: https://en.wikipedia.org/wiki/Embryophyte, Word Count: 4069, Timestamp: 2024-12-21T06:06:36.258Z
+[WORKER 6] URL: https://en.wikipedia.org/wiki/Embryophyte, Browser Closed, Timestamp: 2024-12-21T06:06:36.259Z
+[MAIN] Worker PID: 1, Completed URL: https://en.wikipedia.org/wiki/Rose, Timestamp: 2024-12-21T06:06:36.233Z
+[MAIN] Worker PID: 2, Completed URL: https://en.wikipedia.org/wiki/Flowering_plant, Timestamp: 2024-12-21T06:06:36.316Z
+[MAIN] Worker PID: 6, Completed URL: https://en.wikipedia.org/wiki/Embryophyte, Timestamp: 2024-12-21T06:06:36.355Z
+[MAIN] Worker PID: 1, Exit code: 1, URL: https://en.wikipedia.org/wiki/Rose
+[MAIN] Worker PID: 2, Exit code: 1, URL: https://en.wikipedia.org/wiki/Flowering_plant
+[MAIN] Worker PID: 6, Exit code: 1, URL: https://en.wikipedia.org/wiki/Embryophyte
+[WORKER 9] URL: https://en.wikipedia.org/wiki/Puppet_Master, Closing Page, Timestamp: 2024-12-21T06:06:36.717Z
+[WORKER 9] URL: https://en.wikipedia.org/wiki/Puppet_Master, Word Count: 362, Timestamp: 2024-12-21T06:06:36.847Z
+[WORKER 9] URL: https://en.wikipedia.org/wiki/Puppet_Master, Browser Closed, Timestamp: 2024-12-21T06:06:36.848Z
+[MAIN] Worker PID: 9, Completed URL: https://en.wikipedia.org/wiki/Puppet_Master, Timestamp: 2024-12-21T06:06:36.927Z
+[MAIN] Worker PID: 9, Exit code: 1, URL: https://en.wikipedia.org/wiki/Puppet_Master
+[WORKER 4] URL: https://en.wikipedia.org/wiki/Embryo, Closing Page, Timestamp: 2024-12-21T06:06:37.636Z
+[WORKER 4] URL: https://en.wikipedia.org/wiki/Embryo, Word Count: 3587, Timestamp: 2024-12-21T06:06:37.776Z
+[WORKER 4] URL: https://en.wikipedia.org/wiki/Embryo, Browser Closed, Timestamp: 2024-12-21T06:06:37.776Z
+[MAIN] Worker PID: 4, Completed URL: https://en.wikipedia.org/wiki/Embryo, Timestamp: 2024-12-21T06:06:37.814Z
+[MAIN] Worker PID: 4, Exit code: 1, URL: https://en.wikipedia.org/wiki/Embryo
+[WORKER 10] URL: https://en.wikipedia.org/wiki/Legendary_creature, Closing Page, Timestamp: 2024-12-21T06:06:38.915Z
+[WORKER 10] URL: https://en.wikipedia.org/wiki/Legendary_creature, Word Count: 1222, Timestamp: 2024-12-21T06:06:38.935Z
+[WORKER 10] URL: https://en.wikipedia.org/wiki/Legendary_creature, Browser Closed, Timestamp: 2024-12-21T06:06:38.936Z
+[MAIN] Worker PID: 10, Completed URL: https://en.wikipedia.org/wiki/Legendary_creature, Timestamp: 2024-12-21T06:06:38.936Z
+[MAIN] Worker PID: 10, Exit code: 1, URL: https://en.wikipedia.org/wiki/Legendary_creature
+[WORKER 3] URL: https://en.wikipedia.org/wiki/Seed, Closing Page, Timestamp: 2024-12-21T06:06:39.380Z
+[WORKER 3] URL: https://en.wikipedia.org/wiki/Seed, Word Count: 9638, Timestamp: 2024-12-21T06:06:39.405Z
+[WORKER 3] URL: https://en.wikipedia.org/wiki/Seed, Browser Closed, Timestamp: 2024-12-21T06:06:39.405Z
+[MAIN] Worker PID: 3, Completed URL: https://en.wikipedia.org/wiki/Seed, Timestamp: 2024-12-21T06:06:39.410Z
+[MAIN] Worker PID: 3, Exit code: 1, URL: https://en.wikipedia.org/wiki/Seed

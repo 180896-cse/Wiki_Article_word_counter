@@ -2,7 +2,10 @@ import puppeteer, { Browser, Page } from "puppeteer";
 import fs from "fs"
 import path from "path";
 import { Worker } from 'worker_threads';
+import 'dotenv/config'
 
+// provided limit for concurency and it can be updated in .env file
+const limit = process.env.CONCURENCYLEVEL;
 
 
 const resultDestination = "./src/resultData/results.txt"
@@ -80,7 +83,7 @@ function logToFile(message) {
 export default async function getWordCount(urlList) {
   const writer = fs.createWriteStream(resultDestination, { flags: 'a' });
 
-  const workerPromises = urlList.map(url => {
+  const workerPromises =  urlList.filter((url, index) => index < limit).map(url => {
     return new Promise((resolve, reject) => {
       const worker = new Worker('./src/serviceWorker.js');
       const pid = worker.threadId; 

@@ -8,6 +8,7 @@ Approaches:
 2. My Final approach is with Worker Threads where each worker threads will concurently do their work and report to mainworker.
  - By this every url can be get resolved and processed spratly and concurrently.
  - By this method processing will be done without blocking The main thread and won't wait for all worker to get resolved.
+ - Also can configure limit for concurency level;
 --- 
 
 
