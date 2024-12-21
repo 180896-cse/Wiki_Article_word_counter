@@ -1,0 +1,56 @@
+Overview
+This system is designed for concurrently scraping word counts from multiple URLs using a pool of worker threads. Each worker is responsible for processing one URL by launching a Puppeteer instance to scrape the content, count the words, and then return the result to the main thread. The system logs progress and errors to separate log files to monitor the scraping process effectively.
+
+
+Approaches:
+1. I have also solved it with promise.all() but it willl not be fully concurent.
+---
+2. My Final approach is with Worker Threads where each worker threads will concurently do their work and report to mainworker.
+ - By this every url can be get resolved and processed spratly and concurrently.
+ - By this method processing will be done without blocking The main thread and won't wait for all worker to get resolved.
+--- 
+
+
+Components
+Main Worker (mainWorker.js):
+
+Purpose: Coordinates the execution of multiple scraping tasks by distributing URLs to worker threads and logging results.
+Dependencies:
+worker_threads: For creating and managing worker threads.
+fs: For file system operations (e.g., logging).
+Input: A list of URLs (urlList).
+Output: A log file detailing each worker's actions and the word count results for each URL.
+Service Worker (scraperWorker):
+
+Purpose: Executes the scraping logic, uses Puppeteer to navigate and scrape content from a URL, counts words, and returns the result back to the main worker.
+Dependencies:
+puppeteer: For headless browser automation to scrape web pages.
+worker_threads: For communication with the main worker thread.
+fs: For logging actions and results.
+Input: A URL and the log file path for logging the progress.
+Output: The word count for the URL or an error message if scraping fails.
+Workflow
+Main Worker (Main Process):
+
+A list of URLs (urlList) is provided.
+For each URL, a new worker thread is created to handle the scraping.
+Each worker thread is responsible for:
+Launching Puppeteer.
+Scraping content from the URL.
+Counting the words on the page.
+The worker communicates the result back to the main worker, which logs the outcome.
+After completing the task, the worker terminates.
+Service Worker (Worker Process):
+
+The worker thread receives a URL and a log file path from the main process.
+It launches a Puppeteer browser instance and navigates to the provided URL.
+The page is scraped for the inner text of the #bodyContent element.
+The word count is computed, and any errors or empty content are logged.
+Once the scraping is done, the worker returns the result (word count or error) to the main process.
+
+Error Handling
+Worker Errors: If a worker encounters an error, it sends an error message back to the main process and is logged.
+Scraping Failures: If the page cannot be scraped (e.g., network issues, DOM errors), it logs the failure and passes an error message back to the main process.
+Empty Content: If the content is empty or not found, a special log entry is made, and 0 is returned as the word count.
+Conclusion
+This architecture ensures that web scraping is done efficiently in parallel using worker threads. By employing Puppeteer for headless browsing and separating concerns between the main thread and worker threads, the system can handle many URLs concurrently, making it scalable. Proper logging allows for monitoring, debugging, and tracking the scraping process, which is crucial in a production environment.

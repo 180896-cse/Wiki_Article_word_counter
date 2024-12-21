@@ -1,0 +1,27 @@
+{
+  "name": "wiki_article_word_counter",
+  "version": "1.0.0",
+  "description": "concurent article word counter",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/180896-cse/Wiki_Article_word_counter.git"
+  },
+  "author": "shantanu pratap",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/180896-cse/Wiki_Article_word_counter/issues"
+  },
+  "homepage": "https://github.com/180896-cse/Wiki_Article_word_counter#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "get-typeandmime": "^1.0.19",
+    "nodemon": "^3.1.9",
+    "p-limit": "^6.2.0",
+    "puppeteer": "^23.11.1"
+  }
+}
